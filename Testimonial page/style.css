@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.review{
+    flex: 1;
+    margin-left: 45px;
+    /* border: 1px dotted black; */
+}
+.star_img{
+    padding: 8px;
+    width: 35px;
+    background-color: rgb(255, 225, 57);
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.Reviewers_title{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+}
+.Reviewers_para{
+    color: rgb(116, 116, 116);
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 15px;
+}
+.review_sub{
+    color: rgb(105, 105, 105);
+}
+.checks{
+    font-size: 18px;
+    color: rgb(133, 133, 133);
+}
+.check{
+    width: 18px;
+}
+
+
+.rattings{
+    /* border: 1px dotted black; */
+    flex: 1;
+    height: 412px;
+}
+.google_div{
+    background-color: white;
+    /* border: 1px dotted black; */
+    width: 350px;
+    padding: 15px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+.google_name,.meta_name{
+    font-weight: bold;
+}
+.google_parag,.meta_parag{
+    color: rgb(105, 105, 105);
+}
+.meta_div{
+    margin-top: 45px;
+    background-color: white;
+    width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+}
